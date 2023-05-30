@@ -124,7 +124,7 @@ jobs:
           context: .
           platforms: linux/amd64
           push: true
-          tags: wangovst/public-share:latest
+          tags: wangovst/0.4.0-alpha2:latest
           labels: ${{ steps.meta.outputs.labels }}
           cache-from: type=gha
           cache-to: type=gha,mode=max
