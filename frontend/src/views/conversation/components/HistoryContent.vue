@@ -13,6 +13,22 @@
           {{ $t('commons.currentConversationModel') }}: {{ getChatModelNameTrans(convHistory?.current_model || null) }}
           {{ t(`labels.${convHistory?.type}`) }}
         </n-text>
+        <div class="py-4 px-4 max-w-full relative">
+          <n-text> 说明提示1：服务器3台分别为<a href="https://b1n.net/6H7OF">1号服务器</a>、<a href="https://b1n.net/ypv3K">2号服务器</a>、<a href="https://b1n.net/krxAV">3号服务器</a></n-text>
+        </div>
+        <div class="py-4 px-4 max-w-full relative">
+          <n-text> 说明提示2：公益服务器支持多账户使用，详细看服务器<a href="http://wiki.sydney-ai.com/zh/gongyi">说明</a>。</n-text>
+        </div
+        >
+        <div class="py-4 px-4 max-w-full relative">
+          <n-text> 说明提示3： 有故障无法使用/想加入交流微信群，点击这里：<a href="https://b1n.net/X8I7G">Sydney</a> 联系处理 </n-text>
+        </div>
+        <div class="py-4 px-4 max-w-full relative">
+          <n-text> 说明提示4：PLUS版本<a href="http://wiki.sydney-ai.com/zh/More/Plus"><strong style="text-decoration: underline;">价格方案点击这里</strong></a></n-text>
+        </div>
+        <div class="py-4 px-4 max-w-full relative">
+          <n-text> 说明提示5：点击下方对话框，开始您的GPT之旅吧！使用无对话次数限制哦。</n-text>
+        </div>
         <n-button v-if="_fullscreen" class="absolute left-4 hide-in-print" text @click="toggleFullscreenHistory">
           <template #icon>
             <n-icon>
