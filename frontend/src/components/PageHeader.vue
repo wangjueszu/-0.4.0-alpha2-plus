@@ -7,7 +7,7 @@
             <a href="/" style="text-decoration: none; color: inherit">{{ $t('commons.siteTitle') }}</a>
           </div>
           <div class="hidden sm:block">
-            <a class="h-full inline-block flex" href="http://wiki.sydney-ai.com/zh/More/Plus" target="_blank">
+            <a class="h-full inline-block flex" href="" target="_blank">
             <n-avatar><img src="/Sydney.png" alt="Sydney Logo" /></n-avatar>
             </a>
           </div>
