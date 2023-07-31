@@ -13,6 +13,7 @@
           {{ $t('commons.currentConversationModel') }}: {{ getChatModelNameTrans(convHistory?.current_model || null) }}
           {{ t(`labels.${convHistory?.type}`) }}
         </n-text>
+        <n-text> GPT4模型不稳定时，需手动<a href="http:fake.sydney-ai.com">验证处理</a> </n-text>
         <n-button v-if="_fullscreen" class="absolute left-4 hide-in-print" text @click="toggleFullscreenHistory">
           <template #icon>
             <n-icon>
